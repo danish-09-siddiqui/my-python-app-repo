@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello NCC"
+    return "Hello"
 
 if __name__ == "__main__":
     app.run(
